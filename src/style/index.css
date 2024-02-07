@@ -1,0 +1,50 @@
+/* <<<<<<<< Import File Css >>>>>>> */
+@import url(./reset.css);
+/* <<<<<<<< Import File Css >>>>>>> */
+
+/* <<<<<<<< Import File Font >>>>>>> */
+@font-face {
+    font-family: iranBold;
+    src: url(../font/IRANSansX-Bold.woff);
+}
+@font-face {
+    font-family: iranBlack;
+    src: url(../font/IRANSansX-Black.woff);
+}
+/* <<<<<<<< Import File Font >>>>>>> */
+
+/* <<<<<<<< Root  === Variable >>>>>>> */
+:root{
+    --font-bold : iranBold;
+    --font-Black: iranBlack;
+
+    --color-white: #FEFEFF;
+    --color-black-1: #0D0D0D;
+    --color-black-2: #18181B;
+    --color-red : #EF4444;
+    --color-green-black : #132A22;
+    --color-green-1: #34D399;
+    --color-green-2: #25BD88;
+}
+/* <<<<<<<< Root  === Variable >>>>>>> */
+
+/* <<<<<<<< Style Body >>>>>>> */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to right , var(--color-black-2) , var(--color-green-black) ,var(--color-black-2));
+    font-family: var(--font-bold);
+    color: var(--color-white);
+}
+/* <<<<<<<< Style Body >>>>>>> */
+
+/* <<<<<<<< Style Containers >>>>>>> */
+.containers{
+    width: 85rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+/* <<<<<<<< Style Containers >>>>>>> */

@@ -19,8 +19,8 @@ function App() {
         setUserBasket
       }}
       >
-        <Header/> 
-      {router}
+         <Header/> 
+         {router}
       </productContext.Provider>
     </>
   )

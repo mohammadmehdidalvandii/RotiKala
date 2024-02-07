@@ -1,7 +1,10 @@
+import HomeSliderBanner from "../../components/template/home/HomeSliderBanner/HomeSliderBanner"
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+          <HomeSliderBanner/>
+    </>
   )
 }
 

@@ -30,6 +30,7 @@
 
 /* <<<<<<<< Style Body >>>>>>> */
 body{
+    direction: rtl;
     margin: 0;
     padding: 0;
     box-sizing: border-box;

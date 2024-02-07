@@ -3,7 +3,7 @@ import routes from "./routes"
 // import db from './data/db.json'
 import { useState } from "react"
 import productContext from './context/ProductContext'
-
+import Header from "./components/module/Header/Header"
 
 function App() {
   const router =useRoutes(routes)
@@ -19,7 +19,7 @@ function App() {
         setUserBasket
       }}
       >
-   
+        <Header/> 
       {router}
       </productContext.Provider>
     </>

@@ -14,11 +14,15 @@
 .productCard_img{
     width: 100%;
 }
+.productCard_content{
+    display: block;
+  padding: 0.3rem;
+}
 .productCard_title{
     display: block;
     font-size: 1rem;
     line-height: 1.6;
-    padding: 1rem 0.5rem;
+    margin-top: 1rem;
 }
 .productCard_price{
     display: block;

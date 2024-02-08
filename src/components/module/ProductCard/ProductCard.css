@@ -1,0 +1,27 @@
+.productCard{
+    display: block;
+    text-decoration: none;
+    margin: 1rem 0;
+    color: var(--color-white);
+    width: 100%;
+    background-color: var(--color-black-2);
+    border-radius: 0.4rem;
+    transition: all 0.4s ease-in;
+}
+.productCard:hover{
+    border: 2px solid var(--color-green-2);
+}
+.productCard_img{
+    width: 100%;
+}
+.productCard_title{
+    display: block;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 1rem 0.5rem;
+}
+.productCard_price{
+    display: block;
+    padding: 0.7rem;
+    color: var(--color-green-1);
+}

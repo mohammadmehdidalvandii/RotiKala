@@ -1,0 +1,30 @@
+.articleCard{
+    display: block;
+    padding: 1rem;
+    margin: 1rem 0;
+    text-decoration: none;
+    background-color: var(--color-black-1);
+    border-radius: 0.5rem;
+    color: var(--color-white);
+    border-color: unset;
+    transition: all 0.3s ease-in;
+}
+.articleCard:hover{
+    border: 2px solid var(--color-green-2);
+}
+.articleCard_img{
+    width: 100%;
+    border-radius: 0.2rem;
+}
+.articleCard_title{
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+
+}
+.articleCard_date{
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: var(--color-green-2);
+}

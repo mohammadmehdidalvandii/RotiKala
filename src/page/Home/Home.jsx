@@ -13,7 +13,6 @@ function Home() {
           <HomeBanner/>
           <ProductSpecial/>
           <HomeArticles/>
-          <br /><br /><br /><br /><br />
     </>
   )
 }

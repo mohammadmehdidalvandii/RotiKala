@@ -10,6 +10,7 @@ function Home() {
           <ProductSpecial/>
           <ProductNew/>
           <HomeBanner/>
+          <ProductSpecial/>
           <br /><br /><br /><br /><br />
     </>
   )

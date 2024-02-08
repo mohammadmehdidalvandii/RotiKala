@@ -1,0 +1,32 @@
+.title{
+    display: block;
+    width: 100%;
+    padding: 1rem 0;
+}
+.wrapper_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title_text{
+display: block;
+font-family: var(--font-black);
+font-size: 1.3rem;
+}
+.title_link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color-white);
+    transition: all 0.3s ease-in;
+}
+.title_link:hover{
+    color: var(--color-green-2);
+}
+.title_link_text{
+    font-size: 1.1rem;
+}
+.title_link_icon{
+font-size: 1rem;
+font-weight: 800;
+}

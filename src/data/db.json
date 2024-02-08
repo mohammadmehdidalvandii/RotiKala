@@ -1,0 +1,68 @@
+{
+    "products":[
+        {
+            "id":1,
+            "image":"/assets/images/product/p1.png",
+            "name":"کفش مردانه نیوبالانس m12",
+            "price":5000000,
+            "category":"shoes",
+            "type-p":"special"
+        },
+        {
+            "id":2,
+            "image":"/assets/images/product/p2.png",
+            "name":"کیف مردانه مدل درسا",
+            "price":9000000,
+            "category":"bag",
+            "type-p":"special"
+        },
+        {
+            "id":3,
+            "image":"/assets/images/product/p3.png",
+            "name":"کیف مدل دستی دلسی",
+            "price":500000,
+            "category":"bag",
+            "type-p":"special"
+        },
+        {
+            "id":4,
+            "image":"/assets/images/product/p4.png",
+            "name":"کفش نیو بالانس مدل m-15",
+            "price":8000000,
+            "category":"shoes",
+            "type-p":"special"
+        },
+        {
+            "id":5,
+            "image":"/assets/images/product/p5.png",
+            "name":"کفش ریباک زنامه مدل s-1",
+            "price":1200000,
+            "category":"shoes",
+            "type-p":"special"
+        },
+        {
+            "id":6,
+            "image":"/assets/images/product/p6.png",
+            "name":"کفش زنانه ",
+            "price":4000000,
+            "category":"shoes",
+            "type-p":"special"
+        },
+        {
+            "id":7,
+            "image":"/assets/images/product/p7.png",
+            "name":"کفش نیو بالانس مدل ms-1",
+            "price":10000000,
+            "category":"shoes",
+            "type-p":"special"
+        },
+        {
+            "id":7,
+            "image":"/assets/images/product/p8.png",
+            "name":"کیف دوشی زنانه مدل ورساچ",
+            "price":4000000,
+            "category":"bag",
+            "type-p":"special"
+        }
+    ]
+}

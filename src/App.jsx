@@ -1,13 +1,13 @@
 import { useRoutes } from "react-router-dom"
 import routes from "./routes"
-// import db from './data/db.json'
+import db from './data/db.json'
 import { useState } from "react"
 import productContext from './context/ProductContext'
 import Header from "./components/module/Header/Header"
 
 function App() {
   const router =useRoutes(routes)
-  const [products ,setProducts] = useState([])
+  const [products ,setProducts] = useState([...db.products])
   const [userBasket , setUserBasket] = useState([])
   return (
     <>  

@@ -1,0 +1,13 @@
+.homeBanner{
+    display: block;
+    width: 100%;
+    margin-top: 5rem;
+}
+.homeBanner_link{
+    display: block;
+    width: 100%;
+}
+.homeBanner_link_img{
+    width: 100%;
+    border-radius: 0.5rem;
+}

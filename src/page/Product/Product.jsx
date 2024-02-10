@@ -1,7 +1,10 @@
+import Products from "../../components/template/product/Products/Products"
 
 function Product() {
   return (
-    <div>Product</div>
+    <>
+    <Products/> 
+    </>
   )
 }
 

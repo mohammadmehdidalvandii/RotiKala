@@ -2,6 +2,7 @@ import './Products.css'
 import ProductCard from '../../../module/ProductCard/ProductCard'
 import { useContext } from 'react'
 import productContext from '../../../../context/ProductContext'
+import PageHeader from '../../../module/PageHeader/PageHeader'
 
 
 function Products() {
@@ -10,6 +11,11 @@ function Products() {
     <section className="products">
         <div className="container">
             <div className="row">
+                <div className="col-12">
+                    <PageHeader text='فروشگاه'/>
+                </div>
+            </div>
+            <div className="row mt-5">
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="products_filter">
                         <h6 className="product_title">فیلتر ها</h6>

@@ -1,6 +1,11 @@
 import './Products.css'
+import ProductCard from '../../../module/ProductCard/ProductCard'
+import { useContext } from 'react'
+import productContext from '../../../../context/ProductContext'
+
 
 function Products() {
+    const productsData = useContext(productContext)
   return (
     <section className="products">
         <div className="container">
@@ -35,7 +40,18 @@ function Products() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-8 col-md-6 col-sm-12"></div>
+                <div className="col-lg-8 col-md-6 col-sm-12">
+                    <div className="row">
+                        {productsData.products.map(product=>(
+                        <div className="col-lg-3 col-md-6 col-sm-12" key={product.id}>
+                            <ProductCard
+                                {...product}
+                                price={product.price.toLocaleString()}
+                            />
+                        </div>
+                        ))}
+                    </div>
+                </div>
             </div>
         </div>
     </section>

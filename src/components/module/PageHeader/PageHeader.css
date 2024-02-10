@@ -1,0 +1,28 @@
+.pageHeader{
+    display: block;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0.7rem;
+    background-color: var(--color-black-2);
+}
+.pageHeader_wrapper{
+    display: flex;
+    align-items: center;
+}
+.pageHeader_link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--color-white);
+ transition: all 0.3s ease-in;
+}
+.pageHeader_link:hover{
+    color: var(--color-green-2);
+}
+.pageHeader_icon{
+    display: block;
+    margin: 0 1rem;
+}
+.pageHeader_text{
+    font-size: 1.2rem;
+    color: var(--color-green-2);
+}

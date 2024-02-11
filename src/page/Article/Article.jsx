@@ -1,7 +1,10 @@
+import Articles from "../../components/template/article/Articles/Articles"
 
 function Article() {
   return (
-    <div>Article</div>
+    <>
+    <Articles/>
+    </>
   )
 }
 

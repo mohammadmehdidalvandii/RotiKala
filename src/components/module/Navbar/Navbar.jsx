@@ -32,6 +32,9 @@ function Navbar() {
                     <NavLink to='/sp_product' className={`navbar_item_link ${activeMenu === '/Sp-product' ?"navbar_item_linkActive":""}`}>فورش ویژه</NavLink>
                 </li>
                 <li className="navbar_item">
+                    <NavLink to='/Article' className={`navbar_item_link ${activeMenu === '/Article' ?"navbar_item_linkActive":""}`}>مقالات</NavLink>
+                </li>
+                <li className="navbar_item">
                     <NavLink to='/About' className={`navbar_item_link ${activeMenu === '/About' ?"navbar_item_linkActive":""}`}>درباره ما</NavLink>
                 </li>
                 <li className="navbar_item">
@@ -59,6 +62,9 @@ function Navbar() {
                     </li>
                     <li className="navbarRes_item">
                         <NavLink to='/Sp-product' className={`navbarRes_item_link ${activeMenu === '/Sp-product' ?"navbarRes_item_linkActive":""}`}>فروش ویژه</NavLink>
+                    </li>
+                    <li className="navbarRes_item">
+                        <NavLink to='/Article' className={`navbarRes_item_link ${activeMenu === '/Article' ?"navbarRes_item_linkActive":""}`}>مقالات</NavLink>
                     </li>
                     <li className="navbarRes_item">
                         <NavLink to='/About' className={`navbarRes_item_link ${activeMenu === '/About' ?"navbarRes_item_linkActive":""}`}>درباره ما</NavLink>

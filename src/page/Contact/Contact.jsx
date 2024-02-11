@@ -1,7 +1,10 @@
+import ContactUs from "../../components/template/contact/ContactUs/ContactUs"
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <>
+      <ContactUs/>
+    </>
   )
 }
 

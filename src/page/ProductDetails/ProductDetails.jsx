@@ -1,7 +1,9 @@
+import ProductDetail from "../../components/template/productDetails/ProductDetail/ProductDetail"
+
 
 function ProductDetails() {
   return (
-    <div>ProductDetails</div>
+   <ProductDetail/>
   )
 }
 

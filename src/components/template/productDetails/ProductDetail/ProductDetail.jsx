@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import { BiSolidLike } from "react-icons/bi";
 
 
-function ProductDetail() {
+function ProductDetail({category , image , name ,price}) {
   return (
     <section className="productDetail">
         <div className="container">
@@ -12,7 +12,7 @@ function ProductDetail() {
                     <div className="productDetail_page">
                         <NavLink to='/' className='productDetail_page_link'>خانه</NavLink>
                         /
-                        <span className="product_page_text">کفش</span>
+                        <span className="product_page_text">{category}</span>
                         /
                         <span className="product_page_text">جزئیات کالا</span>
                     </div>
@@ -21,11 +21,11 @@ function ProductDetail() {
             <div className="productDetail_wrapper">
             <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-12">
-                <img src="/assets/images/product/p1.png" alt="" className="productDetail_img" />
+                <img src={image} alt="" className="productDetail_img" />
             </div>
             <div className="col-lg-4 col-md-6 col-sm-12">
                 <div className="product_info">
-                    <h5 className="product_info_title">کفش پیاده روی مردانه نیو بالانس مدل</h5>
+                    <h5 className="product_info_title">{name}</h5>
                     <span className="product_info_subTitle">New Balance Men's Walking Shoes Model Mdrftlm2</span>
                     <div className="product_info_suggestion">
                         <span className="product_info_suggestion_icon">
@@ -72,7 +72,7 @@ function ProductDetail() {
                     </div>
                 </div>
                     <span className="productDetail_addToBasket_gar_text">تضمین سلامت فیزیکی و اصالت کالا</span>
-                    <span className="productDetail_addToBasket_price">1,800,000 تومان</span>
+                    <span className="productDetail_addToBasket_price">{price} تومان</span>
                     <button className="productDetail_addToBasket_btn">افزودن به سبد خرید</button>
             </div>
             </div>

@@ -50,7 +50,7 @@
         },
         {
             "id":7,
-            "image":"/assets/images/product/p7.png",
+            "image":"/assets/images/product/p8.png",
             "name":"کفش نیو بالانس مدل ms-1",
             "price":10000000,
             "category":"shoes",
@@ -58,7 +58,7 @@
         },
         {
             "id":8,
-            "image":"/assets/images/product/p8.png",
+            "image":"/assets/images/product/p7.png",
             "name":"کیف دوشی زنانه مدل ورساچ",
             "price":4000000,
             "category":"bag",
